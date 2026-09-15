@@ -8,7 +8,12 @@ const authRoutes = require('./routes/authRoutes');
 const courseRoutes = require('./routes/courseRoutes');
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: [
+    'http://localhost:5173',
+    'https://knowledge-platform-xi-six.vercel.app'
+  ],
+}));
 app.use(express.json()); // lets us read JSON from request bodies
 app.use('/api/auth', authRoutes);
 app.use('/api/courses', courseRoutes);
