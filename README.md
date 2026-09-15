@@ -3,7 +3,7 @@
 A full-stack course platform where instructors create courses and students enroll — built with MongoDB, Express, React, and Node.js.
 
 ## Live Demo
-- Frontend: https://your-vercel-url.vercel.app
+- Frontend: https://knowledge-platform-xi-six.vercel.app
 - Backend API: https://knowledge-platform-qku0.onrender.com/api/health
 
 ## Features
